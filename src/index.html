@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../dist/output.css" rel="stylesheet">
+    <title>NFT card component</title>
+</head>
+<body>
+<div class="h-screen w-screen bg-dark-blue-main flex items-center justify-center px-3">
+    <div class="bg-dark-blue-card px-5 py-5 max-w-xs rounded-xl">
+        <div class="relative group">
+            <img class="rounded-xl" src="../assets/images/image-equilibrium.jpg" alt="equilibrium image">
+            <div class="opacity-0 group-hover:opacity-100 flex absolute w-full bg-cyan bg-opacity-50
+             h-full top-0 left-0 justify-center items-center transition-opacity rounded-xl">
+                <img alt="view icon" src="../assets/images/icon-view.svg">
+            </div>
+        </div>
+        <p class="hover:text-cyan transition duration-200 text-white font-semibold mt-5">Equilibrium #3429</p>
+        <p class="text-soft-blue mt-3 text-sm font-light">Our equilibrium collection promotes balance and calm.</p>
+        <div class="flex justify-between mt-3">
+            <div class="flex">
+                <img class="mr-2" src="../assets/images/icon-ethereum.svg" alt="ethereum logo">
+                <p class="text-cyan text-xs font-bold">0.041 ETH</p>
+            </div>
+            <div class="flex">
+                <img class="w-4 h-4 mr-1" src="../assets/images/icon-clock.svg" alt="clock logo">
+                <p class="text-soft-blue text-xs font-bold">3 days left</p>
+            </div>
+        </div>
+        <div class="bg-dark-blue-line h-px mt-4"></div>
+        <div class="mt-4 flex">
+            <img alt="avatar image" src="../assets/images/image-avatar.png"
+                 class="h-6 w-6 rounded-full ring-white ring-1 mr-3">
+            <p class="text-soft-blue text-sm">Creation of <span
+                    class="hover:text-cyan transition transition duration-200 text-white">Jules Wyvern</span></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
